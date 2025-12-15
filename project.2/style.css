@@ -1,0 +1,126 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ 
+}
+.box{
+  height: 500px;
+  width: 250px;
+  background:rgb(253, 250, 250);
+  border: 2px solid black;
+  border-color: gray;
+  padding-top: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  padding-left: 30px;
+  text-align: left;
+  padding-bottom: 50px;
+  float: left;
+  
+
+
+}
+.div-2{
+  color:white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 2px solid black;
+  width: 50px;
+  height: 30px;
+  background-color: red;
+  text-align: center;
+  
+  
+
+}
+.box-2{
+  color:white;
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 2px solid black;
+  width: 50px;
+  height: 30px;
+  background-color: green;
+  text-align: center;
+
+  
+
+}
+.button{
+  height: 40px;
+  width: 80px;
+  background-color: green;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 130px;
+
+  
+}
+.rupees span{
+  text-decoration: line-through;
+  font-size: 16px;
+  
+}
+.image{
+  height: 200px;
+  width: 180px;
+
+}
+.image-2{
+  height: 200px;
+  width: 180px;
+
+}
+.image-3{
+  height: 200px;
+  width: 200px;
+
+}
+.image-4{
+  height: 200px;
+  width: 200px;
+
+}
+.image-5{
+  height: 200px;
+  width: 180px;
+
+}
+.image-6{
+  height: 200px;
+  width: 180px;
+
+}
+.image-7{
+  height: 200px;
+  width: 180px;
+
+}
+.image-8{
+  height: 200px;
+  width: 200px;
+
+}
+.image-9{
+  height:50%;
+  width:100%;
+}
+
+
+
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    height: 10px;
+    
+}
