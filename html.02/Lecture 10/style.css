@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    height: 100vh;
+    width: 100%;
+}
+
+.section {
+    height: 400px;
+    width: 100%;
+    background-color: bisque;
+    margin-bottom: 10px;
+}
+
+.heading {
+    display: flex;
+    height: 300px;
+}
+
+.box-1 {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    color: white;
+    border-radius: 7px;
+    margin: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+.output {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.flex-direction-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-direction-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-row-reverse{
+    flex-direction: row-reverse;
+}
