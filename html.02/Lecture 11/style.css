@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.body{
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.section{
+     margin-bottom: 12px;    
+    height: 450px;
+    width: 100%;
+    background-color: sandybrown;
+   
+
+
+}
+.box-1{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-color:powderblue;
+    margin: 8px;
+    align-content: center;
+    text-align: center;
+    
+    
+
+
+}
+.heading{
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 10px;
+}
+.output{
+    display: flex;
+    justify-content: flex-start;
+
+    
+    
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.space-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.space-evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-start-2{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.flex-end-2{
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    height: 270px;
+}
+
+
+.flex-center-2{
+    display: flex;
+    align-content: center;
+}
+.flex-stretch-2{
+    display: flex;
+    align-content: stretch;
+}
+.flex-space-between-2{
+   
+    flex-wrap: wrap; 
+    align-content: space-between;
+}
+.flex-space-around-2{
+    display: flex;
+    align-content: space-around;
+
+}
+
+
