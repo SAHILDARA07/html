@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+  <title>Movies</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-bar">
+      <div class="left-nav">
+        <img src="https://m.media-amazon.com/images/G/01/digital/video/web/logo-min-remaster.png" alt="" class="image">
+        <a href="index.html">Home</a>
+        <a href="movies.html">Movies</a>
+        <a href="">TV shows</a>
+        <a href="">Live tv</a>
+        <a href=""><i class="ri-gallery-view-2"></i>subscription</a>
+      </div>
+      <div class="right-nav">
+        <a href=""><i class="ri-search-line"></i></a>
+        <a href="">EN<i class="ri-arrow-drop-down-line"></i></a>
+        <a href=""><i class="ri-grid-fill"></i></a>
+        <a href=""><i class="ri-account-circle-fill"></i></a>
+        <button class="join">join prime</button>
+      </div>
+    </div>
+  </nav>
+  <section class="section-4">
+    <!-- <iframe src="movies/video.2.mp4">
+    </iframe> -->
+    <video src="movies/video.2.mp4" autoplay loop></video>
+  </section>
+
+  <section class="section-5">
+    <div class="kantara">
+      <img
+        src="data:image/jpeg;base64,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">
+    </div>
+
+
+    <div class="kantara">
+      <img
+        src="https://m.media-amazon.com/images/S/pv-target-images/1ec34102ebd81d50dddaa0147daf705b0f3ec6ffee71b31ead818d59799a6405._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/m-r/Prime/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kvf21cb47db8d34aa971cd86f57a65cf8d_SX500_FMjpg_.jpg">
+    </div>
+
+
+    <div class="kantara">
+      <img
+        src="https://imagesvs.oneindia.com/img/2025/12/dhurandhar-box-office-collection-day-11-1764992792.jpg">
+    </div>
+
+    <div class="kantara">
+      <img
+        src="https://m.media-amazon.com/images/S/pv-target-images/9669f393d8e82e8cdbe208799b8f294f6d7bf90fa64b7abc889fa2d4cfa6a5fa.jpg">
+    </div>
+    <div class="kantara">
+      <img
+        src="https://assets-in.bmscdn.com/discovery-catalog/events/et00383697-ldfargufej-landscape.jpg">
+    </div>
+
+  </section>
+  <section class="section-5">
+    <div class="kantara">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVjMcYO5qwWfSXscBbqbY8PHtSonJlzuHeOg&s">
+    </div>
+    <div class="kantara">
+      <img
+        src="https://wallpapers.com/images/hd/red-notice-aesthetic-poster-u03gr40tkhzk74pd.jpg">
+    </div>
+
+    <div class="kantara">
+      <img src="https://static.toiimg.com/thumb/msid-112274362,width-1070,height-580,imgsize-68790,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg">
+    </div>
+
+    <div class="kantara">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Qw9KUjEDYn5Cp9qCkJD3OXHEd4E-m9p-Ng&s">
+    </div>
+    <div class="kantara">
+      <img
+        src="https://www.acmodasi.in/amdb/images/movie/l/2/our-fault-2025-ZIKoxg.jpg">
+    </div>
+
+  </section>
+  <section class="section-5">
+    <div class="kantara">
+      <img
+        src="https://www.acmodasi.in/amdb/images/movie/b/x/your-fault-2024-cZJfMa.jpg">
+    </div>
+
+    <div class="kantara">
+      <img
+        src="https://www.acmodasi.in/amdb/images/movie/j/e/my-fault-2023-3981.jpg">
+    </div>
+
+    <div class="kantara">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqf6naF_AY4OlBcN9jn8bTSQcWywjOqF_gtA&s">
+    </div>
+
+    <div class="kantara">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5GIzI2SQ-2UXdlMYpoXfGr5Yu5xqYt8xO6Q&s">
+    </div>
+    <div class="kantara">
+      <img
+        src="https://images6.alphacoders.com/129/thumb-1920-1293547.jpg">
+    </div>
+
+  </section>
+
+
+  <section class="section-5">
+    <div class="kantara">
+      <img
+        src="https://www.apple.com/tv-pr/shows-and-films/f/f1/images/show-home-graphic-header/key-art-03/4x1/Apple_TV_F1_key_art_graphic_header_4_1_show_home.jpg.og.jpg?1760350164818">
+    </div>
+
+    <div class="kantara">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpeP4G5aomXqbjw7DDNE_HLfkyZJyYaF8P4w&s">
+    </div>
+    <div class="kantara">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaa2wjG5sabX2QCBdGk9NSaU1zHSo--XbhZQ&s">
+    </div>
+
+    <div class="kantara">
+      <img
+        src="https://images6.alphacoders.com/945/thumb-1920-945655.jpg">
+    </div>
+    <div class="kantara">
+      <img src="https://4kwallpapers.com/images/wallpapers/spider-man-no-way-home-doctor-strange-2021-movies-marvel-1920x1080-6970.jpg">
+    </div>
+     
+    
+
+  </section>
+
+
+</body>
+
+</html>

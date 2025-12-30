@@ -1,0 +1,239 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #00050D;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.nav-bar{
+    height: 70px;
+    position: fixed;
+    backdrop-filter: blur(14px);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0px 8px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 900px;
+    font-size: 19px;
+}
+
+.nav-bar a:hover {
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+}
+
+
+.right-nav a:hover{
+    padding: 0px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join{
+    background-color: #187DCC;
+    border-radius: 8px;
+    height: 33px;
+    width: 94px;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.image{
+    height: 20px;
+    width: 100px;
+    margin-right: 25px;
+}
+
+.left-nav,
+.right-nav{
+    display: flex;
+    align-items: center;
+}
+
+
+.section-1{
+    margin-top: 70px;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    background-image: url("https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg");
+    color: white;
+}	
+
+.section-contant{
+    position: relative;
+    top: 90px;
+    left: 60px;
+    line-height: 1.3;
+}
+
+.section h1{
+    font-size: 40px;
+}
+
+.section p{
+    font-size: 20px;
+}
+
+.section button{
+    height: 60px;
+    width: 190px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    transition: transform 0.5s;
+}
+
+.section button:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+.section-2{
+    margin-top: -28px;
+    color: white;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    background-image: url("https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg");
+}
+
+.section-3{
+    display: flex;
+    margin-top: 10px;
+    color: white;
+    background-size: cover;
+    height: 83vh;
+    width: 100%;
+}
+
+.section-3-left{
+    width: 50%;
+}
+.section-3-right{
+    width: 70%;
+}
+
+.section-3-right img{
+    height: 290px;
+    border-radius: 10px;
+    padding: 4px ;
+}
+
+.section-3-right img:hover{
+    box-shadow: 3px 3px 30px 3px rgb(202, 198, 198);
+}
+
+.section-3-left h1{
+    position: relative;
+    top: 100px;
+    left: 60px;
+    font-size: 50px;
+}
+.section-3-left p{
+    position: relative;
+    top: 100px;
+    left: 60px;
+    font-size: 18px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #303030;
+    padding: 20px 0px;
+}
+
+footer .footer-value img{
+   height: 45px;
+   position: relative;
+   left: 150px;
+}
+
+footer .footer-value a{
+    text-decoration: none;
+    color: #00bff9;
+    font-size: 19px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+footer .footer-value p{
+    text-decoration: none;
+    color: #bac1c4;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    left: 15px;
+}
+
+.section-4{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.section-4 iframe{
+    margin-top: 80px;
+    width: 1500px;
+    height: 2000px;
+
+    
+}
+.section-5{
+    display: flex;
+    justify-content: center;
+
+}
+
+.kantara{
+    height: 250px;
+    width: 350px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top:40px;
+    margin: 20px;
+    
+} 
+.kantara img{
+    height: 250px;
+    width: 350px;
+    border-radius: 8px;
+    cursor: pointer;
+    
+} 
+.kantara:hover{
+
+    background-color: white;
+    border-radius: 8px;
+}
