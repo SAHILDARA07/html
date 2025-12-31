@@ -1,0 +1,242 @@
+body{
+     height: 100vh;
+    width: 100%;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7) 10%, transparent);
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.nav-logo img {
+    height: 40px; 
+}
+
+.nav-actions {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.language-selector {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    color: white;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.language-selector select {
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.btn-signin {
+    background-color: #e50914;
+    color: white;
+    text-decoration: none;
+    padding: 7px 17px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.btn-signin:hover {
+    background-color: #c10712;
+}
+.netflix{
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height:95%;
+    width: 100%;
+    background-image: url("https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg");
+    color: rgb(255, 255, 255);
+}
+.netflix h1{
+    position: absolute;
+    margin-top: 20%;
+    font-size: 60px;
+}
+.netflix-2 h3{
+    margin-top:110%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+
+}
+.netflix-2 input{
+    height: 60px;
+    width: 300px;
+    background-color: rgb(17, 12, 12);
+    border-radius: 8px;
+
+}
+.netflix-2 ::placeholder{
+    color: white;
+    
+}
+.box{
+    display: flex;
+    justify-content: end;
+    align-content: end;
+    text-align: center;
+}
+.button{
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    color: rgb(255, 255, 255);
+    height: 65px;
+    width: 270px;
+    margin-left:5%;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    
+}
+.section-1{
+ display: flex;
+ justify-content: center;
+}
+.Trending{
+    color: white;
+    margin: 30px;
+}
+.image{
+    height: 350px;
+    width: 250px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top:40px;
+    margin:20px;
+    
+} 
+.image img{
+    height: 360px;
+    width: 250px;
+    border-radius: 8px;
+    cursor: pointer;
+} 
+.image:hover{
+
+    background-color: white;
+    border-radius: 8px;
+    
+
+}
+.section-2{
+    margin-left: 12%;
+}
+.section-3{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box-1{
+    height: 200px;
+    width: 250px;
+    background-color: #1D182E;
+    margin: 25px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+.box-2{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    color:white;
+    padding: 10px;
+
+
+}
+.faq-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    margin-top: 90px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+.faq-question {
+    background-color: #303030;
+    color: white;
+    padding: 1.5rem;
+    margin-top:20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size:30px;
+    margin-bottom: 1px;
+}
+
+.faq-question span {
+    font-size: 2rem;
+}
+
+.section-4{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.netflix-2 h4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.section-5 p{
+    color: white;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.section-6{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,330px);
+    
+}
+
+.footer a{
+    color: rgb(255, 255, 255);
+}
