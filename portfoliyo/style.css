@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 500vh;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 25px;
+    background-color: rgb(3, 49, 64);
+    font-size: 20px;
+    color: white;
+}
+
+.img {
+    background: url('https://images.stockcake.com/public/d/d/d/ddda00d1-3971-4967-a2a6-a361dad1231c_large/serene-sky-sunset-stockcake.jpg')center/cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 200px;
+    font-size: 65px;
+    color: #2d2c2c;
+
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-box,
+.blog-box {
+    display: flex;
+    justify-content: center;
+    gap: 220px;
+    margin-top: 80px;
+
+}
+.services h1{
+    font-size: 45px;
+}
+.services p{
+    font-size: 25px;
+}
+
+
+.portfolio {
+    gap: 10px;
+    justify-content: space-between;
+
+}
+.service-box img{
+    height: 90px;
+    width: 80px;
+}
+.service-box h1{
+    font-size: 35px;
+}
+.blog img{
+    height: 200px;
+    width: 350px;
+   
+
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    gap: 20px;
+    justify-content: center;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: 30px;
+    gap: 25px;
+    background: #eee;
+    padding: 90px;
+    text-align: center;
+}
+.blog h1{
+  margin-bottom: 20px;
+  font-size: 45px;
+}
