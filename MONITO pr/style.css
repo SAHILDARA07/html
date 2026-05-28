@@ -1,0 +1,296 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    height:100vh;
+    width: 100%;
+    
+}
+
+.hero{
+    height: 100px;
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding:4px;
+    
+
+}
+.input{
+    height: 40px;
+    width: 160px;
+    border-radius: 8px;
+}
+
+.a{
+    text-decoration: none;
+    color:black
+}
+.input-2{
+    height: 40px;
+    width: 150px;
+    border-radius: 8px;
+    background-color: rgb(10, 10, 47);
+    color:white;
+}
+.container-3{
+    margin-left: 100px;
+    display: flex;
+    
+    
+    
+}
+.h1{
+    color:rgb(5, 5, 85);
+    margin: 4px;
+    
+}
+.button-1{
+    height:40px;
+    width:140px;
+    border-radius: 10px;
+    background-color: white;
+    margin:4px;
+}
+.button-2{
+     height:40px;
+    width:140px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(13, 13, 66);
+    margin:4px;
+}
+.section{
+    background-color: #FCEED5;
+    margin: 0px;
+    padding:0px;
+}
+.container-4{
+    margin-top: 100px;
+}
+.h3{
+    margin:6px;
+}
+.div-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.div-4{
+    margin-right: 100px;
+}
+.container-5{
+    margin-top: 100px;
+}
+.container-6{
+  display:flex;
+  justify-content: center;
+  display: grid;
+  grid-template-columns:auto auto auto auto;
+  margin-top: 10px;
+  gap:10px
+}
+.img-1{
+    border-radius: 10px;
+}
+.button-3{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+}
+.container-img{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: right;
+    width: 100%;
+}
+
+.centered-text{
+    
+    
+    position: absolute;
+     top: 50%; 
+    left: 70%; 
+    transform: translate(-50%, -50%); 
+  
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container-7{
+    margin: 25px;
+}
+
+.container-8{
+
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.container-5{
+    margin-top: 100px;
+}
+.container-6{
+  display:flex;
+  justify-content: center;
+  display: grid;
+  grid-template-columns:auto auto auto auto;
+  margin-top: 10px;
+  gap:10px
+}
+.img-1{
+    border-radius: 10px;
+}
+.button-3{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+}
+.image-3{
+    height: 300px;
+    width: 1200px;
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-image: url("https://next-monito.vercel.app/static/img/317/01.png");
+    background-size: cover;
+    background-position: center center;
+    margin-left: 150px; 
+}
+.h1-1{
+    display: flex;
+    margin-left: 800px;
+    
+}
+.button-4{
+    height:40px;
+    width:140px;
+    border-radius: 10px;
+    background-color: #FCEED5;  
+}
+.button-5{
+    height:40px;
+    width:140px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(13, 13, 66);
+    margin-left: 4px;   
+}
+.p{
+    height: 30px;
+    width: 200px;
+    display: flex;
+   background-color: #FCEED5;  
+   border-radius: 8px;
+    
+}
+.section-5{
+    margin-top: 100px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px
+    
+}
+.hand{
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+    height:300px;
+    width: 1000px;
+    margin-top:50px;
+    margin-left: 250px;
+    background-image: url("	https://next-monito.vercel.app/static/img/317/02.png");
+    border-radius: 10px;
+}
+.p-1{
+    margin-right: 500px;
+}
+.div-3{
+    margin-top: 4px;
+}
+.section-6{
+    margin-top: 50px;
+     background-color: #FCEED5;  
+     height: 300px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}   
+
+.div-6{
+    height: 140px;
+    width: 1000px;
+    background-color: rgb(7, 35, 66);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+.input-3{
+    height: 80px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 30px;
+border-radius: 10px;
+
+}
+
+
+.footer{
+    height: 60px;
+    width: 140px;
+margin-top: 40px;
+
+ 
+}
+.Subscribe{
+     height: 60px;
+    width: 100px;
+   margin-left:6px;
+   border-radius: 10px;
+    background-color: rgb(17, 17, 73);
+    color: white;
+}
+.p-2{
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    margin: 20px;
+}
+.container-10{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: #FCEED5;
+    
+}
+.div-7{
+    display: flex;
+    gap: 50px;
+      background-color: #FCEED5;
+}
+.icons-5{
+    display: flex;
+    gap: 50px;
+}
